@@ -12,9 +12,9 @@ This project is web application for tracking the movie details of the entered of
     password - admin
     databse name - MOVIES_DATA_SET
 
-  b.python2.7.6
-  c.pip python package manager
-  d.using pip install python packages using below command
+  1.python2.7.6
+  2.pip python package manager
+  3.using pip install python packages using below command
     pip install gevent,Flask
 
 2.Create three tables inside MOVIES_DATA_SET database 
