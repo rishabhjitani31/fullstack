@@ -71,6 +71,11 @@ CREATE TABLE movie_details
   static/js/movie-skills-set/MovieFormComponent.jsx
   static/js/movie-skills-set/MovieListComponent.jsx
   
+  Different css and js library used in the project
+  ===================================================================
+  static/css/lib
+  static/js/lib
+  
  
  
 
