@@ -1,0 +1,39 @@
+/* css styling for datatable */
+.tablechart {
+		 border-color:grey;
+		 border-collapse: collapse;
+		 width: 100%;
+		 height:50px;
+		 border-spacing:2px;
+		 font-size:12px;
+		
+	}
+
+/*css styling for add details button */
+.adddetails{
+		margin-top:8px;
+		float:right;
+		margin-right:15px;
+	}
+/*css styling for not to have bottom scroll bar */
+.row {
+    margin-right:0px;
+    margin-left:0px;
+	}
+
+/*css styling for delete icon*/
+.deletestyle{
+		font-size:20px;
+		color:red;
+	}
+
+/*css styling for edit button */
+.editstyle{
+		font-size:20px;
+	}
+
+/*css styling for skill mapping icon */
+.skillstyle{
+		font-size:20px;
+		color:black;
+	}
