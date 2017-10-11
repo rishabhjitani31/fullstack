@@ -4,7 +4,6 @@ from flask import Flask, render_template, request, jsonify
 import logging
 from logging.handlers import RotatingFileHandler
 import MySQLdb
-import ast
 import gevent.pywsgi
 
 app = Flask(__name__)
