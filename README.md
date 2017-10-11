@@ -20,7 +20,6 @@ This project is web application for tracking the movie details of the entered of
 2.Create three tables inside MOVIES_DATA_SET database 
 ===================================================================================================================
 
-using the command
 
 CREATE TABLE movie_details
 (
@@ -71,7 +70,7 @@ CREATE TABLE movie_details
   static/js/movie-skills-set/MovieDetailsComponent.jsx
   static/js/movie-skills-set/MovieFormComponent.jsx
   static/js/movie-skills-set/MovieListComponent.jsx
-  =======================================================================
+  
  
  
 
