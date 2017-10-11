@@ -1,0 +1,56 @@
+<html>
+
+  <head>
+    
+	<!-- Script files related to React -->
+	<script src="{{ url_for('static', filename = 'js/lib/react/react.min.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'js/lib/react/react-dom.min.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'js/lib/react/browser.min.js') }}"></script>
+	
+	<!--Script files related to custom JSX components -->
+	<script src="{{ url_for('static', filename = 'js/employee-skills-set/MainPageComponent.jsx') }}" type="text/babel"></script>
+	<script src="{{ url_for('static', filename = 'js/employee-skills-set/MovieDetailsComponent.jsx') }}" type="text/babel"></script>
+	<script src="{{ url_for('static', filename = 'js/employee-skills-set/MovieFormComponent.jsx') }}" type="text/babel"></script>
+	<script src="{{ url_for('static', filename = 'js/employee-skills-set/MovieListComponent.jsx') }}" type="text/babel"></script>
+	
+	<!--Script files related to jquery -->
+	<script src="{{ url_for('static', filename = 'js/lib/jquery/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'js/lib/jquery/jquery.dataTables.min.js') }}"></script>
+	<script src="{{ url_for('static', filename = 'js/lib/jquery/notify.min.js') }}"></script>
+	
+	<!--Script files related to bootstrap -->
+	<script src="{{ url_for('static', filename = 'js/lib/bootstrap/bootstrap.min.js') }}"></script>
+	<link href="{{ url_for('static', filename='css/lib/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+	<script type="text/javascript" src="{{ url_for('static', filename = 'js/lib/bootstrap/dataTables.bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename = 'js/lib/bootstrap/bootbox.min.js') }}"></script>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/lib/bootstrap/dataTables.bootstrap.min.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/lib/bootstrap/font-awesome.min.css') }}" />
+	
+	<!-- Link files related to icon -->
+	<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+	
+	<!--Script file realted to custom css -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'css/mystyle.css') }}" />
+
+	<title>MOVIES-DATA-SET</title>
+  
+  </head>  
+  
+  <body>	 
+	
+	<!-- ID of the virtual DOM -->
+	<div id="MovieDetails"></div>
+	<script type="text/babel">
+	
+		ReactDOM.render(
+		<MainPageComponent />,
+		document.getElementById('MovieDetails')
+		);
+    
+	</script>
+ 
+ </body>
+
+</html>
+
+
