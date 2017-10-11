@@ -15,7 +15,7 @@ This project is web application for tracking the movie details of the entered of
   c.pip python package manager
   d.using pip install python packages using below command
     pip install gevent,Flask
-
+==================================================================================================================================
 2.Create three tables inside MOVIES_DATA_SET database 
 
 using the command
@@ -47,22 +47,29 @@ CREATE TABLE movie_details
  )
  
  3.Clone the repository
+ =======================================================================
  4.Run the python script using command python fullstack.py
+ ========================================================================
  5.Browse hostname:8070(example localhost:8070)
+ ========================================================================
  
  Custom files
  
  1.python file 
   fullstack.py
+  ========================================================================
  2.css file
   static/css/mystyle.css
+  ========================================================================
  3.html files
   templates/index.html
+  =======================================================================
  4.React Component files
   static/js/movie-skills-set/MainPageComponent.jsx
   static/js/movie-skills-set/MovieDetailsComponent.jsx
   static/js/movie-skills-set/MovieFormComponent.jsx
   static/js/movie-skills-set/MovieListComponent.jsx
+  =======================================================================
  
  
 
