@@ -73,8 +73,8 @@ CREATE TABLE movie_details
   
   Different css and js library used in the project
   ===================================================================
-  static/css/lib
-  static/js/lib
+  1.static/css/lib
+  2.static/js/lib
   
  
  
